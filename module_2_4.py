@@ -4,7 +4,7 @@ not_primes = []
 for i in numbers:
     if i == 1:
         continue
-    flag = True
+    #flag = True
     for j in range(2, i):
         if i % j == 0:
 
