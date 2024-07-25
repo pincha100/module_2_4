@@ -6,7 +6,7 @@ for i in numbers:
         continue
     flag = True
     for j in range(2, i):
-        if 1 % j == 0:
+        if i % j == 0:
 
             not_primes.append(i)
 
